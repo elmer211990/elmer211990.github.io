@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ELMER CABANILLAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+
+</head>
+
+<body background="http://4.bp.blogspot.com/--4iSUGW-C_Y/VIHV1CUro5I/AAAAAAAABzQ/mSnkXHG23kU/s1600/imagen%2Bde%2Bun%2Blindo%2Bpaisaje%2B1.jpg">
+
+    <h1 style="background-color:DodgerBlue;">ELMER CABANILLAS</h1>
+
+
+
+    <h1><a href="carta.html">CARTA</a> </h1>
+    <h1><a href="examen.html">EXAMEN</a></h1>
+
+    <p style="background-color:rgb(244, 247, 65);">
+        estudie en el colegio Ramon Castilla e ingrese a la UNC por el CEPUNC, en el ciclo de verano
+    </p>
+
+    <h1>DIRECCION con mapa</h1>
+
+    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(-7.14862, -78.514753),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+    <h2>tabla de informacion</h2>
+
+    <table>
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDOS</th>
+            <th>CIUDAD</th>
+            <th>FOTO</th>
+        </tr>
+        <tr>
+            <td>ELMER</td>
+            <td>CABANILLAS URRUNAGA</td>
+            <td>CAJAMARCA</td>
+            <td><img src="http://cache1.asset-cache.net/xc/483527913.jpg?v=2&c=IWSAsset&k=2&d=Pav_glhAZ7daWJH8tVN-9V6enF4Hg30FcKEvaJDIlAdedI_v3iSUR0jzpSiNK1PB0" alt="W3Schools.com" style="width:104px;height:142px;">
+            </td>
+        </tr>
+
+    </table>
+
+
+
+    <h2 style="color: yellowgreen">Pasatiempo</h2>
+
+
+    <ul>
+        <li style="color:white;">jugar futbol</li>
+
+
+
+        <li style="color:white;">pasear</li>
+        <li style="color:white;">ver peliculas</li>
+    </ul>
+
+    <h2>instituciones educativas</h2>
+
+    <ol>
+        <li>Colegio: ramon castilla</li>
+        <li>academia: CEPUNC</li>
+        <li>Universidad: UNC</li>
+    </ol>
+
+
+
+
+
+    <footer>
+        <p style="background-color:rgb(98, 71, 248);"> ALUMNO</p>
+        <p>Elmer cabanillas</p>
+        <p>9 ciclo</p>
+        <p>Ing. de sistemas</p>
+        <p>Curso: ing. web</p>
+
+    </footer>
+
+</body>
+
+
+
+
+
+</html>
